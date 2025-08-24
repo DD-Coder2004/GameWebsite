@@ -142,6 +142,16 @@ header nav ul li.btn a:hover, .email .block button:hover {
     border-radius: 40px;
     transition: all 500ms ease;
     position: relative;
+    width: 176px;
+    text-align: start;
+}
+
+.hero-info .btn, .hero-about .info .btn img{
+    width: 12px;
+    height: 10.29px;
+    position: absolute;
+    top: 40%;
+    right: 20%;
 }
 
 .hero-info .btn:hover, .hero-about .info .btn:hover  {
@@ -250,7 +260,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
 /* feauters  */
 
 .features{
-    background: linear-gradient(148deg,rgba(0, 0, 0, 0.54) 65%, rgba(0, 0, 0, 0.65) 67%), url(/img/feuters/background/background.png) no-repeat center fixed;
+    background: linear-gradient(148deg,rgba(0, 0, 0, 0.54) 65%, rgba(0, 0, 0, 0.65) 67%), url(./img/feuters/background/background.png) no-repeat center fixed;
     background-size: cover;
     padding-top: 80px;
     backdrop-filter: blur(100%);
@@ -666,7 +676,7 @@ footer .ending{
 .main-title .hero-nav{
     text-align: center;
     margin-bottom: 15px;
-    margin-top: 110px;
+    margin-top: 60px;
 }
 
 .main-title p{
@@ -1161,7 +1171,7 @@ footer .ending{
 
 .hero-contacts .min-nav{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 15px;
 }
 
@@ -1217,6 +1227,7 @@ footer .ending{
     padding: 55px 0;
     margin-top: 147px;
     padding-bottom: 155px;
+    position: relative;
 }
 
 .feedback h2{
@@ -1243,7 +1254,8 @@ footer .ending{
 }
 
 .feedback form .inline > div{
-    width: 322px;
+    width: 350px;
+    margin-right: -5.4%;
 }
 
 .feedback label{
@@ -1267,7 +1279,7 @@ footer .ending{
 }
 
 .feedback form .one-line{
-    width: 95%;
+    width: 100%;
 }
 
 .feedback textarea{
@@ -1291,4 +1303,20 @@ footer .ending{
 .feedback form button:hover{
     background: rgb(175, 33, 33);
 }
+
+.feedback .line{
+    position: absolute;
+}
+
+.feedback .line-top{
+    right: 0;
+    top: 0;
+}
+
+.feedback .line-bottom{
+    left: 0;
+    bottom: 0;
+}
+
+/* adaptiv for laptop  */
 
