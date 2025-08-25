@@ -36,7 +36,8 @@ header {
     padding: 50px 0;
 }
 
-header .logo, footer .logo {
+header .logo,
+footer .logo {
     text-transform: uppercase;
     font-size: 29px;
     font-weight: 800;
@@ -90,14 +91,16 @@ header nav ul li:not(.active):not(.btn) a:hover {
     border-bottom: 5px solid #DC7000;
 }
 
-header nav ul li.btn a, .email .block button {
+header nav ul li.btn a,
+.email .block button {
     background: #DC7000;
     padding: 10px 27px;
     border-radius: 6px;
     transition: all 500ms ease-in-out;
 }
 
-header nav ul li.btn a:hover, .email .block button:hover {
+header nav ul li.btn a:hover,
+.email .block button:hover {
     background: #bb520b;
 }
 
@@ -133,7 +136,8 @@ header nav ul li.btn a:hover, .email .block button:hover {
     padding-bottom: 50px;
 }
 
-.hero-info .btn, .hero-about .info .btn {
+.hero-info .btn,
+.hero-about .info .btn {
     font-weight: 500;
     padding: 15px 30px;
     background: linear-gradient(148deg, rgba(250, 131, 5, 1) 0%, rgba(251, 158, 60, 1) 100%);
@@ -146,38 +150,39 @@ header nav ul li.btn a:hover, .email .block button:hover {
     text-align: start;
 }
 
-.hero-info .btn, .hero-about .info .btn img{
-    width: 12px;
-    height: 10.29px;
+.hero-info .btn,
+.hero-about .info .btn img {
     position: absolute;
-    top: 40%;
-    right: 20%;
+    text-align: center;
 }
 
-.hero-info .btn:hover, .hero-about .info .btn:hover  {
+.hero-info .btn:hover,
+.hero-about .info .btn:hover {
     transform: scale(1.1);
     cursor: pointer;
 
 }
 
-.hero img{
+.hero img {
     position: absolute;
     top: -140px;
-    right: 180px;
+    right: -180px;
 }
 
 
 /* section game  */
 
-.tranding{
+.tranding {
     padding-top: 132px;
 }
-.tranding h3{
+
+.tranding h3 {
     font-weight: 700;
     font-size: 31px;
 }
 
-.tranding .see-all, .projects .see-all{
+.tranding .see-all,
+.projects .see-all {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
@@ -189,30 +194,31 @@ header nav ul li.btn a:hover, .email .block button:hover {
     transition: all 500ms ease;
 }
 
-.tranding .see-all:hover, .projects .see-all:hover{
+.tranding .see-all:hover,
+.projects .see-all:hover {
     transform: scale(1.1);
 }
 
-.tranding .games{
+.tranding .games {
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 50px 0;
 }
 
-.tranding .games span{
+.tranding .games span {
     display: block;
     text-align: center;
     margin-top: 25px;
 }
 
-.tranding .games span img{
+.tranding .games span img {
     position: relative;
     top: 5px;
     margin-right: 7px;
 }
 
-.big-text{
+.big-text {
     font-weight: 600;
     font-size: 35px;
     padding: 50px 0;
@@ -220,18 +226,18 @@ header nav ul li.btn a:hover, .email .block button:hover {
     max-width: 800px;
 }
 
-.banner{
+.banner {
     padding: 80px 0px;
     position: relative;
 }
 
-.banner h3{
+.banner h3 {
     font-weight: 600;
     font-size: 30px;
     padding-bottom: 15px;
 }
 
-.banner p{
+.banner p {
     font-weight: 400;
     padding-bottom: 46px;
     width: 545px;
@@ -239,7 +245,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
 }
 
 
-.banner img{
+.banner img {
     align-content: center;
     justify-content: center;
     width: 100%;
@@ -248,7 +254,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
 
 }
 
-.banner .backround-banner{
+.banner .backround-banner {
     z-index: 0;
     position: absolute;
     top: 193px;
@@ -259,14 +265,14 @@ header nav ul li.btn a:hover, .email .block button:hover {
 
 /* feauters  */
 
-.features{
-    background: linear-gradient(148deg,rgba(0, 0, 0, 0.54) 65%, rgba(0, 0, 0, 0.65) 67%), url(./img/feuters/background/background.png) no-repeat center fixed;
+.features {
+    background: linear-gradient(148deg, rgba(0, 0, 0, 0.54) 65%, rgba(0, 0, 0, 0.65) 67%), url(./img/feuters/background/background.png) no-repeat center fixed;
     background-size: cover;
     padding-top: 80px;
     backdrop-filter: blur(100%);
 }
 
-.features h3{
+.features h3 {
     width: 826px;
     font-weight: 700;
     font-size: 30px;
@@ -276,7 +282,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
     margin: auto;
 }
 
-.features p{
+.features p {
     font-weight: 400;
     line-height: 187%;
     margin-bottom: 99px;
@@ -285,69 +291,71 @@ header nav ul li.btn a:hover, .email .block button:hover {
     margin: auto;
 }
 
-.features .info{
+.features .info {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.features .info .block{
-    margin: 99px 0 0 0 ;
+.features .info .block {
+    margin: 99px 0 0 0;
     text-align: center;
     width: 25%;
-    
+
 }
 
-.features .block p{
+.features .block p {
     width: auto;
     margin-bottom: 15px;
 }
 
-.features .block img{
-   margin-bottom: 30px;
+.features .block img {
+    margin-bottom: 30px;
 }
 
 
 /* OUR PROJECTS */
-.projects{
+.projects {
     padding: 141px 165px;
 }
-.projects h3{
+
+.projects h3 {
     font-weight: 700;
     font-size: 30px;
     text-align: center;
     margin-bottom: 15px;
 }
 
-.projects p{
+.projects p {
     font-weight: 400;
     font-size: 14px;
     margin-bottom: 71px;
     text-align: center;
 }
 
-.projects .images{
+.projects .images {
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
 }
-.projects .images img{
+
+.projects .images img {
     max-width: 382px;
     max-height: 223px;
     border-radius: 20px;
 }
 
-.projects .images .more{
+.projects .images .more {
     width: 469px;
     max-height: auto;
 }
 
-.projects .images .mami{
+.projects .images .mami {
     width: 246px;
     max-height: auto;
 }
 
-.projects .see-all{
+.projects .see-all {
     float: none;
     width: 130px;
     height: 40px;
@@ -357,24 +365,24 @@ header nav ul li.btn a:hover, .email .block button:hover {
 
 /* нижня частина  */
 
-.email{
+.email {
     padding-bottom: 120px;
 }
 
-.email h3{
+.email h3 {
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 32px;
 }
 
-.email p{
+.email p {
     line-height: 187%;
     width: 545px;
     font-weight: 400;
     margin-bottom: 74px;
 }
 
-.email .block{
+.email .block {
     background-color: #1C140F;
     padding: 40px 56px;
     border-radius: 15px;
@@ -383,24 +391,24 @@ header nav ul li.btn a:hover, .email .block button:hover {
     justify-content: space-between;
     align-items: center;
     position: relative;
-   
+
 }
 
-.email .block h4{
+.email .block h4 {
     font-weight: 500;
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.email .block p{
+.email .block p {
     font-weight: 400;
     font-size: 17px;
     margin-bottom: auto;
 }
 
-.email .block input{
+.email .block input {
     background-color: #FFFFFF;
-    padding: 14px 20px ;
+    padding: 14px 20px;
     width: 385px;
     border-radius: 8px;
     outline: none;
@@ -413,105 +421,105 @@ header nav ul li.btn a:hover, .email .block button:hover {
 
 }
 
-.email .block input::placeholder{
+.email .block input::placeholder {
     color: #898989;
     width: 155.1px;
 }
 
-.email .block button{
+.email .block button {
     margin-top: 8px;
     float: right;
     cursor: pointer;
     border: none;
     color: #FFFFFF;
-    padding: 8px 22px ;
+    padding: 8px 22px;
     position: relative;
     z-index: 1;
 }
 
 /* footer  */
 
-footer{
+footer {
     background-color: #070707;
     padding: 50px;
 
 }
 
-footer .block{
+footer .block {
     display: flex;
     justify-content: space-between;
 }
 
-footer .block p{
+footer .block p {
     width: 300px;
     margin: 15px 0;
 }
 
-footer .block h4{
+footer .block h4 {
     font-weight: 500;
     font-size: 17px;
     margin-bottom: 15px;
 }
 
-footer .block .icons{
-    display:flex;
+footer .block .icons {
+    display: flex;
     align-items: flex-end;
     gap: 10px;
     height: 150px;
 }
 
-footer .block .icons img{
+footer .block .icons img {
     width: 64px;
     height: 64px;
 }
 
-footer .block ul li{
+footer .block ul li {
     margin-bottom: 8px;
 }
 
-footer hr{
+footer hr {
     margin: 30px;
     border: 0;
     height: 0.6px;
     background: #ccc;
 }
 
-footer .ending{
+footer .ending {
     text-align: center;
-    
+
 }
 
 /* Page About US  */
-.hero-about{
+.hero-about {
     position: relative;
 }
 
-.hero-about .info{
+.hero-about .info {
     width: 425px;
     height: auto;
     padding-top: 82px;
     padding-left: 55px;
 }
 
-.hero-about .info .min-nav span{
+.hero-about .info .min-nav span {
     color: #E47500;
 }
 
-.hero-about .info h1{
+.hero-about .info h1 {
     font-weight: 700;
     font-size: 30px;
     line-height: 180%;
     padding-bottom: 24px;
 }
 
-.hero-about .info p{
+.hero-about .info p {
     font-weight: 400;
     font-size: 15px;
     line-height: 208%;
     padding-bottom: 57px;
 }
 
-.hero-about img{
+.hero-about img {
     position: absolute;
     width: 739px;
     height: auto;
@@ -520,24 +528,24 @@ footer .ending{
 
 }
 
-.work{
+.work {
     padding-top: 257px;
     margin-bottom: 147px;
 }
 
-.work h2{
-    font-weight:600;
+.work h2 {
+    font-weight: 600;
     font-size: 25px;
     margin-bottom: 63px;
 }
 
-.work .blocks{
+.work .blocks {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.work .blocks .block{
+.work .blocks .block {
     background-color: #1C140F;
     padding: 64px 34px;
     width: 378px;
@@ -545,19 +553,19 @@ footer .ending{
     border-radius: 20px;
 }
 
-.work .blocks .block h3{
+.work .blocks .block h3 {
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 15px;
     padding-top: 30px;
 }
 
-.work .blocks .block p{
+.work .blocks .block p {
     font-weight: 400;
     line-height: 180%;
 }
 
-.work .block .badge{
+.work .block .badge {
     font-weight: 400;
     font-size: 14px;
     margin-bottom: 19px;
@@ -565,45 +573,45 @@ footer .ending{
     padding: 7px 25px;
 }
 
-.work .block .purple{
+.work .block .purple {
     background-color: #B000DC1C;
 }
 
-.work .block .brown{
+.work .block .brown {
     background-color: #DC42001C;
 }
 
-.work .block .green{
+.work .block .green {
     background-color: #00DC8D1C;
 }
 
 /* second about us  */
 
-.game-person{
+.game-person {
     background-color: #1C140F;
 
 }
 
-.game-person .container{
+.game-person .container {
     display: flex;
 }
 
-.game-person .container img{
+.game-person .container img {
     padding-top: 113px;
     margin-right: 95px;
 }
 
-.game-person .container .desc-person{
-     padding-top: 180px;
+.game-person .container .desc-person {
+    padding-top: 180px;
 }
 
-.game-person .container section{
+.game-person .container section {
     font-weight: 500;
     padding-bottom: 13px;
 }
 
 
-.game-person .container h3{
+.game-person .container h3 {
     font-weight: 600;
     font-size: 28px;
     line-height: 157%;
@@ -611,7 +619,7 @@ footer .ending{
 
 }
 
-.game-person .container p{
+.game-person .container p {
     font-weight: 400;
     line-height: 202%;
 }
@@ -619,12 +627,12 @@ footer .ending{
 
 /* second our team  */
 
-.our-team .container{
+.our-team .container {
     display: flex;
     justify-content: space-between;
 }
 
-.our-team h2{
+.our-team h2 {
     font-weight: 600;
     font-size: 25px;
     padding-bottom: 53px;
@@ -633,16 +641,16 @@ footer .ending{
 }
 
 
-.our-team .personage{
+.our-team .personage {
     width: 295px;
     height: 253px;
     background-color: #1C140F;
     border-radius: 20px;
     justify-content: center;
-    
+
 }
 
-.our-team .personage img{
+.our-team .personage img {
     width: 123px;
     height: 123px;
     margin: auto;
@@ -650,54 +658,56 @@ footer .ending{
     margin-top: 35px;
 }
 
-.our-team .personage h4{
+.our-team .personage h4 {
     font-weight: 600;
     font-size: 19px;
     padding-bottom: 23px;
 }
 
-.our-team .personage p{
+.our-team .personage p {
     font-weight: 300;
     color: #E8E8E8;
 
 }
 
 
-.our-team .personage h4, .our-team .container .personage p{
+.our-team .personage h4,
+.our-team .container .personage p {
     text-align: center;
 }
 
-.our-team .email{
+.our-team .email {
     display: block;
     padding-top: 157px;
 }
 
 /* third Portfolio  */
-.main-title .hero-nav{
+.main-title .hero-nav {
     text-align: center;
     margin-bottom: 15px;
     margin-top: 60px;
 }
 
-.main-title p{
+.main-title p {
     text-align: center;
 }
-.main-title p span{
+
+.main-title p span {
     color: #E47500;
 }
 
-.main-title h2{
+.main-title h2 {
     text-align: center;
     font-weight: 600;
     font-size: 33px;
     margin-bottom: 15px;
 }
 
-.main-title .last-p{
+.main-title .last-p {
     margin-bottom: 45px;
 }
 
-.main-title .main-info{
+.main-title .main-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -708,24 +718,25 @@ footer .ending{
     border-radius: 10px;
 }
 
-.main-title .main-info h4{
+.main-title .main-info h4 {
     display: block;
     font-weight: 700;
     font-size: 25px;
     margin-bottom: 10px;
 }
-.main-title .main-info p{
+
+.main-title .main-info p {
     font-weight: 400;
     font-size: 20px;
 }
 
-.video-port{
+.video-port {
     margin-top: 132px;
     margin-bottom: 182px;
-    
+
 }
 
-.video-port .video-block{
+.video-port .video-block {
     width: 669px;
     height: auto;
     float: left;
@@ -734,7 +745,7 @@ footer .ending{
     margin-right: 87px;
 }
 
-.video-port div .second-video{
+.video-port div .second-video {
     position: absolute;
     justify-content: center;
     top: 40%;
@@ -742,55 +753,58 @@ footer .ending{
 
 }
 
-.video-port .video-desc{
+.video-port .video-desc {
     width: 427px;
     height: 362px;
     display: inline-block;
 }
 
-.video-port .video-desc h2{
+.video-port .video-desc h2 {
     font-weight: 700;
     font-size: 30px;
     line-height: 180%;
     margin-bottom: 11px;
 }
 
-.video-port .video-desc .paragraph-p{
+.video-port .video-desc .paragraph-p {
     font-size: 14px;
     font-weight: 400;
     line-height: 187%;
     margin-bottom: 28px;
-    
+
 }
 
-.video-port .video-desc div{
+.video-port .video-desc div {
     width: 205px;
 }
-.video-port .video-desc div p{
+
+.video-port .video-desc div p {
     float: right;
 }
-.video-port .video-desc div img{
+
+.video-port .video-desc div img {
     margin-bottom: 19px;
 }
 
 
 /* third portfolio description  */
 
-.description-pages{
+.description-pages {
     display: flex;
     margin-bottom: 189px;
 }
 
-.description-pages .div-img img{
+.description-pages .div-img img {
     width: 496px;
     height: 489px;
 }
-.description-pages .div-text{
-     width: 536px;
-     margin-right: 138px;
+
+.description-pages .div-text {
+    width: 536px;
+    margin-right: 138px;
 }
 
-.description-pages .div-text h3{
+.description-pages .div-text h3 {
     font-weight: 500;
     font-size: 30px;
     line-height: 45px;
@@ -798,14 +812,14 @@ footer .ending{
 
 }
 
-.description-pages .div-text p{
+.description-pages .div-text p {
     font-weight: 400;
     font-size: 17px;
     margin-bottom: 20px;
     line-height: 26px;
 }
 
-.description-pages .div-text button{
+.description-pages .div-text button {
     padding: 13px 43px;
     margin-top: 59px;
     background-color: #DC7000;
@@ -816,35 +830,35 @@ footer .ending{
     width: 177px;
 }
 
-.description-pages .text-reverse{
-     width: 536px;
-     margin-right: 0px;
-     margin-left: 138px;
+.description-pages .text-reverse {
+    width: 536px;
+    margin-right: 0px;
+    margin-left: 138px;
 }
 
 /* third portfolio comments  */
 
-.our-clients{
+.our-clients {
     background-color: #1C140F;
     padding-top: 88px;
     padding-bottom: 60px;
 
 }
 
-.our-clients .list-comment{
+.our-clients .list-comment {
     padding-top: 68px;
     display: flex;
 }
 
-.our-clients .list-comment .client-desc{
+.our-clients .list-comment .client-desc {
     margin: auto;
 }
 
-.our-clients .client-desc{
+.our-clients .client-desc {
     width: 520px;
 }
 
-.our-clients .client-desc h2{
+.our-clients .client-desc h2 {
     font-weight: 500;
     font-size: 35px;
     line-height: 50px;
@@ -853,14 +867,14 @@ footer .ending{
     margin-bottom: 20px;
 }
 
-.our-clients .client-desc p{
+.our-clients .client-desc p {
     font-size: 14px;
     font-weight: 400;
     line-height: 187%;
     text-align: center;
 }
 
-.our-clients .list-comment .people-com{
+.our-clients .list-comment .people-com {
     width: 400px;
     border: 2px solid #DDDDDD;
     border-radius: 10px;
@@ -869,7 +883,7 @@ footer .ending{
     align-items: center;
     margin-left: 80px;
     overflow: hidden;
-    
+
 }
 
 /* .our-clients .list-comment .border-1{
@@ -877,12 +891,12 @@ footer .ending{
     background-color: #0F0901;
 } */
 
-.our-clients .list-comment .people-com .profile{
+.our-clients .list-comment .people-com .profile {
     margin-left: 20px;
     display: inline-block;
 }
 
-.our-clients .list-comment .people-com .star{
+.our-clients .list-comment .people-com .star {
     margin-left: 108px;
     align-items: center;
     display: flex;
@@ -900,13 +914,13 @@ footer .ending{
     color: #4F5665;
 }
 
-.our-clients .list-comment .people-com .star p{
+.our-clients .list-comment .people-com .star p {
     margin-right: 10px;
     margin-top: 0px;
     color: white;
 }
 
-.our-clients .list-comment .people-com h3{
+.our-clients .list-comment .people-com h3 {
     margin-top: 5px;
     font-weight: 500;
     font-size: 18px;
@@ -914,14 +928,14 @@ footer .ending{
 
 }
 
-.our-clients .list-comment .people-com .coment{
+.our-clients .list-comment .people-com .coment {
     font-size: 14px;
     font-weight: 400;
     line-height: 187%;
 }
 
 /* realize circle button  */
-.our-clients .condd{
+.our-clients .condd {
     margin-top: 60px;
     display: flex;
     justify-content: end;
@@ -950,7 +964,7 @@ footer .ending{
     transform: scale(0.95);
 }
 
-.our-clients .condd .left-scroll{
+.our-clients .condd .left-scroll {
     margin-right: 20px;
 }
 
@@ -961,7 +975,7 @@ footer .ending{
     font-weight: 800;
 }
 
-.our-clients .condd button{
+.our-clients .condd button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -971,12 +985,12 @@ footer .ending{
     font-size: 20px;
 }
 
-.our-clients .condd button:hover{
+.our-clients .condd button:hover {
     background-color: #DC7000;
     color: white;
 }
 
-.condd .where-im .view{
+.condd .where-im .view {
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -987,13 +1001,13 @@ footer .ending{
 
 }
 
-.condd .where-im{
+.condd .where-im {
     margin: auto;
     margin-right: 920px;
-    
+
 }
 
-.condd .where-im .w1{
+.condd .where-im .w1 {
     background-color: #DC7000;
     width: 45px;
     border-radius: 20px;
@@ -1002,13 +1016,12 @@ footer .ending{
 
 /* four realize News  */
 
-.main-title .inputArea
-{
+.main-title .inputArea {
     text-align: center;
     position: relative;
 }
 
-.main-title #searchArea{
+.main-title #searchArea {
     padding-left: 50px;
     background-color: #1C140F;
     width: 400px;
@@ -1020,13 +1033,13 @@ footer .ending{
     font-weight: 400;
 }
 
-.main-title #searchArea::placeholder{
+.main-title #searchArea::placeholder {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
 }
 
-.main-title .loopa{
+.main-title .loopa {
     position: absolute;
     top: 36.5%;
     left: 36.5%;
@@ -1034,24 +1047,25 @@ footer .ending{
 
 /* two side  */
 
-.left-containerr,.right-containerr{
+.left-containerr,
+.right-containerr {
     padding: 100px 0;
 
 }
 
 /* left part news  */
 
-.left-containerr{
+.left-containerr {
     width: 47%;
     float: left;
 }
 
-.left-containerr .img-left{
+.left-containerr .img-left {
     height: 100%;
     border-radius: 20px;
 }
 
-.left-containerr button{
+.left-containerr button {
     height: 48px;
     width: 164px;
     border: none;
@@ -1065,19 +1079,19 @@ footer .ending{
     transition: all 0.5s ease;
 }
 
-.left-containerr button:hover{
+.left-containerr button:hover {
     background-color: #3a55b5;
 
 }
 
-.left-containerr h2{
+.left-containerr h2 {
     font-weight: 600;
     font-size: 30px;
     line-height: 45px;
     margin-bottom: 32px;
 }
 
-.left-containerr p{
+.left-containerr p {
     font-weight: 400;
     font-size: 17px;
     line-height: 207%;
@@ -1085,13 +1099,13 @@ footer .ending{
     width: 529px;
 }
 
-.left-containerr hr{
+.left-containerr hr {
     border: 0.7px solid #A5A5A5;
     margin: 90px 0;
 }
 
 /* right part news  */
-.right-containerr{
+.right-containerr {
     width: 47%;
     float: right;
     height: 2089px;
@@ -1100,16 +1114,16 @@ footer .ending{
     justify-content: space-between;
 }
 
-.right-containerr .mini-text{
+.right-containerr .mini-text {
     margin-left: 31px;
 }
 
-.right-containerr .mini-info{
+.right-containerr .mini-info {
     display: flex;
     margin-bottom: 60px;
 }
 
-.right-containerr .mini-info img{
+.right-containerr .mini-info img {
     width: 260px;
     height: 183px;
     border-radius: 20px;
@@ -1117,7 +1131,7 @@ footer .ending{
 
 }
 
-.right-containerr .mini-info button{
+.right-containerr .mini-info button {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
@@ -1127,36 +1141,36 @@ footer .ending{
     margin-top: 26px;
 }
 
-.right-containerr .mini-info .mini-text p{
+.right-containerr .mini-info .mini-text p {
     float: right;
     margin-right: 55%;
     margin-top: 40px;
 }
 
-.right-containerr .mini-info .mini-text h4{
+.right-containerr .mini-info .mini-text h4 {
     margin-top: 30px;
     font-weight: 600;
     font-size: 23px;
-    
+
 }
 
-.right-containerr .mini-info .mini-text .b-pink{
+.right-containerr .mini-info .mini-text .b-pink {
     background-color: #FF8484;
 }
 
-.right-containerr .b-blue{
+.right-containerr .b-blue {
     background-color: #2351F5;
 }
 
-.right-containerr .b-orange{
+.right-containerr .b-orange {
     background-color: #FF7C32;
 }
 
-.right-containerr .b-green{
+.right-containerr .b-green {
     background-color: #23A54F;
 }
 
-.right-containerr .b-purple{
+.right-containerr .b-purple {
     background-color: #9921C3;
 }
 
@@ -1169,60 +1183,60 @@ footer .ending{
 /* five contact us */
 
 
-.hero-contacts .min-nav{
+.hero-contacts .min-nav {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 15px;
 }
 
-.hero-contacts .min-nav span{
+.hero-contacts .min-nav span {
     color: #E47500;
 }
 
-.hero-contacts h2{
+.hero-contacts h2 {
     text-align: center;
     margin-bottom: 15px;
     font-weight: 600;
     font-size: 33px;
 }
 
-.hero-contacts p{
+.hero-contacts p {
     text-align: center;
     margin-bottom: 90px;
 }
 
-.hero-contacts img{
+.hero-contacts img {
     margin: auto;
     display: block;
     width: 80%;
 }
 
 
-.front-footer{
+.front-footer {
     display: flex;
     margin-top: 66px;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
-.front-footer span{
+.front-footer span {
     align-items: flex-end;
     position: relative;
     bottom: -30px;
 
 }
 
-.front-footer .line-1{
+.front-footer .line-1 {
     left: 15.5px;
     position: absolute;
-    top: 0px ;
+    top: 0px;
 }
 
 /* five feadback  */
 
-.feedback{
+.feedback {
     background-color: #1C140F;
     padding: 55px 0;
     margin-top: 147px;
@@ -1230,41 +1244,44 @@ footer .ending{
     position: relative;
 }
 
-.feedback h2{
+.feedback h2 {
     font-weight: 400;
     font-size: 30px;
     text-align: center;
     margin-bottom: 5px;
 }
 
-.feedback p{
+.feedback p {
     font-weight: 500;
     font-size: 13px;
     text-align: center;
 }
 
-.feedback form{
+.feedback form {
     margin: 80px auto;
     width: 671px;
 }
 
-.feedback form .inline{
+.feedback form .inline {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 1;
+
 }
 
-.feedback form .inline > div{
+.feedback form .inline>div {
     width: 350px;
     margin-right: -5.4%;
 }
 
-.feedback label{
+.feedback label {
     color: #4F4F4F;
     font-size: 14px;
 }
 
 .feedback form input,
-.feedback textarea{
+.feedback textarea {
     background-color: #FFFFFF12;
     border: 0.6px solid #CECECE;
     border-radius: 9px;
@@ -1278,16 +1295,16 @@ footer .ending{
     margin-bottom: 20px;
 }
 
-.feedback form .one-line{
+.feedback form .one-line {
     width: 100%;
 }
 
-.feedback textarea{
+.feedback textarea {
     resize: none;
     height: 232px;
 }
 
-.feedback form button{
+.feedback form button {
     background-color: #DC7000;
     border-radius: 10px;
     padding: 20px 48px;
@@ -1300,23 +1317,277 @@ footer .ending{
     transition: all 500ms ease;
 }
 
-.feedback form button:hover{
+.feedback form button:hover {
     background: rgb(175, 33, 33);
 }
 
-.feedback .line{
+.feedback .line {
     position: absolute;
+    z-index: 0;
 }
 
-.feedback .line-top{
+.feedback .line-top {
     right: 0;
     top: 0;
 }
 
-.feedback .line-bottom{
+.feedback .line-bottom {
     left: 0;
     bottom: 0;
 }
 
-/* adaptiv for laptop  */
 
+
+/* adaptiv for laptop L  */
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+    .projects .images img {
+        max-width: 320px;
+    }
+
+    .our-clients .list-comment .people-com .star {
+        left: 50%;
+    }
+
+    #btn-arrows {
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        margin-right: 120px;
+        margin-top: 16.5px;
+    }
+
+
+}
+
+/* adaptiv for laptop  */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* Home Page */
+    .hero img {
+        position: absolute;
+        top: -125;
+        right: -263px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .projects {
+        padding: 141px 0px;
+    }
+
+    .text-h4 {
+        width: 100%;
+    }
+
+    .text-p {
+        width: 100%;
+    }
+
+    .email p {
+        width: 373px;
+    }
+
+    footer {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .footer-text {
+        padding-right: 10px;
+    }
+
+    .features {
+        width: 100%;
+    }
+
+    .email .block button {
+        margin-top: -40px;
+    }
+
+    .email .block input {
+        right: -65px;
+    }
+
+    img {
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 85%;
+    }
+
+    .tranding .games {
+        position: relative;
+    }
+
+    .tranding .games span img {
+        position: absolute;
+        top: 80%;
+        padding-left: 4%;
+    }
+
+    .projects .images img {
+        max-width: 290px;
+    }
+
+    /* About us Page */
+    .hero-about img {
+        max-width: 550px;
+    }
+
+    #btn-arrows {
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        margin-right: 120px;
+        margin-top: 15px;
+    }
+
+    .work .blocks .block {
+        width: 280px;
+        padding: 45px 20px;
+    }
+
+    .hero-about .info {
+        padding-left: 20px;
+    }
+
+    .game-person .container .desc-person {
+        padding-top: 150px;
+    }
+
+    #lore-img {
+        width: 45%;
+    }
+
+    .game-person .container img {
+        margin-right: 30px;
+    }
+
+    .our-team .personage {
+        width: 206.5px;
+        height: 225px;
+    }
+
+    .our-team .personage img {
+        margin-top: 20px;
+    }
+
+    /* Portfolio Page */
+
+    .main-video {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 110%;
+    }
+
+    .video-port .video-block {
+        width: 400px;
+        margin-right: 0px;
+    }
+
+    .g-flag {
+        display: inline;
+    }
+
+    .video-port .video-desc {
+        margin-left: 55px;
+        width: 465px;
+    }
+
+    .video-port .video-desc h2 {
+        line-height: 120%;
+    }
+
+    .description-pages .div-text {
+        width: 450px;
+        margin-right: -10px;
+    }
+
+    .icon-text {
+        margin-right: 0;
+        max-width: 95%;
+    }
+
+    .description-pages .text-reverse {
+        margin-left: 0px;
+    }
+
+    .icon-text-2 {
+        margin-left: 0;
+        max-width: 95%;
+    }
+
+    .our-clients .list-comment .people-com {
+        margin-left: 10px;
+        padding: 20px;
+    }
+
+    .stars {
+        margin-left: -10px;
+    }
+
+    .our-clients .list-comment .people-com .star p {
+        position: relative;
+        margin-right: 0px;
+        right: 15px;
+    }
+
+    .our-clients .list-comment .people-com .profile {
+        margin-left: 10px;
+    }
+
+    .condd .where-im {
+        margin: auto;
+        margin-right: 580px;
+    }
+
+    /* About us Page */
+
+    .main-title .loopa {
+        position: absolute;
+        top: 36.5%;
+        left: 30%;
+    }
+
+    .right-containerr .img-mine {
+        width: 100%;
+        height: auto;
+    }
+
+    .left-containerr p {
+        width: 100%;
+    }
+
+    .left-containerr .img-left,
+    .mini-info .s-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .right-containerr .mini-info .mini-text p {
+        float: right;
+        margin-right: 10%;
+        margin-top: 40px;
+    }
+
+    .right-containerr {
+        height: 1920px;
+    }
+
+    .left-containerr,
+    .right-containerr {
+        padding: 100px 0 50px;
+    }
+
+    .feedback .line-top {
+        width: 77%;
+    }
+
+    .feedback .line-bottom {
+        width: 45%;
+    }
+}

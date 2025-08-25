@@ -1,0 +1,27 @@
+<svg viewBox="0 0 62 62" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.000000" height="62.000000" fill="none" customFrame="#000000">
+	<defs>
+		<g id="pixso_custom_effect_7">
+			<effect x="0.000000" y="4.000000" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.150000006" effectType="dropShadow" showShadowBehind="1" stdDeviation="14" radius="0" />
+		</g>
+		<filter id="filter_7" width="62.000000" height="62.000000" x="0.000000" y="0.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_7)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feOffset dx="0.000000" dy="4.000000" in="SourceAlpha" />
+			<feGaussianBlur stdDeviation="4.66666651" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0 " />
+			<feBlend result="effect_dropShadow_1" in2="BackgroundImageFix" mode="normal" />
+			<feBlend result="shape" in="SourceGraphic" in2="effect_dropShadow_1" mode="normal" />
+		</filter>
+		<clipPath id="clipPath_19">
+			<rect width="12.000000" height="12.000000" x="25.000000" y="21.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+	</defs>
+	<g id="Group 5">
+		<g filter="url(#filter_7)">
+			<circle id="Ellipse 1" cx="31" cy="27" r="17" fill="rgb(28,20,15)" />
+		</g>
+		<g id="facebook 1" clip-path="url(#clipPath_19)" customFrame="url(#clipPath_19)">
+			<rect id="facebook 1" width="12.000000" height="12.000000" x="25.000000" y="21.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+			<path id="Vector" d="M32.9985 22.9925L34.094 22.9925L34.094 21.0845C33.905 21.0585 33.255 21 32.498 21C30.9185 21 29.8365 21.9935 29.8365 23.8195L29.8365 25.5L28.0935 25.5L28.0935 27.633L29.8365 27.633L29.8365 33L31.9735 33L31.9735 27.6335L33.646 27.6335L33.9115 25.5005L31.973 25.5005L31.973 24.031C31.9735 23.4145 32.1395 22.9925 32.9985 22.9925Z" fill="rgb(255,255,255)" fill-rule="nonzero" />
+		</g>
+	</g>
+</svg>
